@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d916f58c-c8ea-4fbd-973a-0f44093e1faa" name="Default Changelist" comment="" />
+    <list default="true" id="d916f58c-c8ea-4fbd-973a-0f44093e1faa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certificacion/proyectobase/tasks/Compose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certificacion/proyectobase/tasks/Compose.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -38,6 +43,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1R3hElCLdkp5REPJUnHtPqsVrRw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>

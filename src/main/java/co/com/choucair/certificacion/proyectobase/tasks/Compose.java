@@ -1,7 +1,6 @@
 package co.com.choucair.certificacion.proyectobase.tasks;
 
 import co.com.choucair.certificacion.proyectobase.userinterface.GmailUserPage;
-import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
