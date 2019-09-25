@@ -12,9 +12,7 @@ public class OpenThe implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-
         actor.attemptsTo(Open.browserOn(googleHomePage));
-
     }
 
     public static OpenThe GoogleHomePage() {

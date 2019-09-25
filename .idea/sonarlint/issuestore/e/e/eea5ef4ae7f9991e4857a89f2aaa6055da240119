@@ -1,3 +1,2 @@
 
-ssquid:UselessImportCheck"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ8ÍÖÓÔ-
-lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÖêf8¬õÓÔ-
+lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÖêf8¬õÓÔ-

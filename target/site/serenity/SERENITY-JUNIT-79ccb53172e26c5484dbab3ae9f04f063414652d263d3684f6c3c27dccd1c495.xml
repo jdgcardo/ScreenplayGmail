@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Creación de nuevo empleado en OrangeHRM" skipped="0" tests="1" time="52.19" timestamp="2019-09-25 11:57:13"><testcase name="crear nuevo usuario en OrangeHRM"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //div[@id='9_inputfileddiv']//input[@class='select-dropdown']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@id='9_inputfileddiv']//input[@class='select-dropdown']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@id='9_inputfileddiv']//input[@class='select-dropdown']&#13;
+co.com.choucair.certificacion.proyectobase.tasks.CrearNuevoEmpleado.performAs(CrearNuevoEmpleado.java:29)&#13;
+co.com.choucair.certificacion.proyectobase.stepdefinitions.CrearEmpleadoOrangeStepDefinitions.elRealizaElIngresoDelRegistroEnLaAplicación(CrearEmpleadoOrangeStepDefinitions.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

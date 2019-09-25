@@ -86,9 +86,36 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>
-1 Scenarios (?[32m1 passed?[0m)
-3 Steps (?[32m3 passed?[0m)
-0m32,878s
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/crearEmpleadoOrange.feature:16 ?[0m# crear nuevo usuario en OrangeHRM
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+0m52,378s
+
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@id='9_inputfileddiv']//input[@class='select-dropdown']
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady.performAs(WaitUntilTargetIsReady.java:26)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at co.com.choucair.certificacion.proyectobase.tasks.CrearNuevoEmpleado.performAs(CrearNuevoEmpleado.java:29)
+	at co.com.choucair.certificacion.proyectobase.tasks.CrearNuevoEmpleado$$EnhancerByCGLIB$$82be3485.CGLIB$performAs$0(&lt;generated&gt;)
+	at co.com.choucair.certificacion.proyectobase.tasks.CrearNuevoEmpleado$$EnhancerByCGLIB$$82be3485$$FastClassByCGLIB$$e682ccde.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at co.com.choucair.certificacion.proyectobase.tasks.CrearNuevoEmpleado$$EnhancerByCGLIB$$82be3485.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at co.com.choucair.certificacion.proyectobase.stepdefinitions.CrearEmpleadoOrangeStepDefinitions.elRealizaElIngresoDelRegistroEnLaAplicación(CrearEmpleadoOrangeStepDefinitions.java:33)
+	at ?.el realiza el ingreso del registro en la aplicación(src/test/resources/features/crearEmpleadoOrange.feature:10)
 
 </pre>
 </span>
@@ -113,7 +140,7 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Send email
+[Test worker] INFO net.serenitybdd.core.Serenity - Test Suite Started: Creación de nuevo empleado en OrangeHRM
 [Test worker] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -122,18 +149,20 @@
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Using Gmail to send email
--------------------------------------------------------------------(send-email;using-gmail-to-send-email)
-[Test worker] INFO net.serenitybdd.core.Serenity - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
+TEST STARTED: crear nuevo usuario en OrangeHRM
+-------------------------------------------------------------------(creación-de-nuevo-empleado-en-orangehrm;crear-nuevo-usuario-en-orangehrm)
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
 
-TEST PASSED: Using Gmail to send email
-----------------------------------------------------------------------------
+TEST FAILED: crear nuevo usuario en OrangeHRM
+--------------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Cuando el realiza el ingreso del registro en la aplicación | firstname | lastname | location | blood | hobbies | region | fte | temporary | | Carlos | Trujillo | German Regional HQ | A | Correr | Region-1 | 0.5 | Sub unit-1 |
+[Test worker] ERROR net.serenitybdd.core.Serenity - Expected: an element that is visible but: no matching element found by xpath: //div[@id='9_inputfileddiv']//input[@class='select-dropdown']
 </pre>
 </span>
 </div>
@@ -145,7 +174,7 @@ TEST PASSED: Using Gmail to send email
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 23/09/2019 09:42:27 AM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 25/09/2019 11:58:07 AM</p>
 </div>
 </div>
 </body>

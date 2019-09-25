@@ -1,0 +1,8 @@
+
+isquid:S1132("MMove the "Italian" string literal on the left side of this string comparison.(ˆ„šåýÿÿÿÿ
+asquid:S1132"JMove the "Male" string literal on the left side of this string comparison.(€øÀÞ
+isquid:S1132""MMove the "Cricket" string literal on the left side of this string comparison.(Âû‰Šûÿÿÿÿ
+isquid:S1132'"MMove the "English" string literal on the left side of this string comparison.(¿ÿÒèùÿÿÿÿ
+hsquid:S1132#"LMove the "Movies" string literal on the left side of this string comparison.(”™ïŸúÿÿÿÿ
+hsquid:S1132$"LMove the "Hockey" string literal on the left side of this string comparison.(É¡¾áùÿÿÿÿ
+fsquid:S00100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¿ýú

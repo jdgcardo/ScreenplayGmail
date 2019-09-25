@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Send email" skipped="0" tests="1" time="24.46" timestamp="2019-09-20 10:03:47"><testcase name=""><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
-co.com.choucair.certificacion.proyectobase.tasks.Login.performAs(Login.java:15)&#13;
-co.com.choucair.certificacion.proyectobase.stepdefinitions.EnviarCorreoStepDefinitions.thatUserWantToUseGmail(EnviarCorreoStepDefinitions.java:22)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
